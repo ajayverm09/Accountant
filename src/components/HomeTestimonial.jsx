@@ -82,7 +82,7 @@ const TestimonialSlider = () => {
           </AnimatePresence>
 
           {/* Pagination Dots */}
-          <div className="flex justify-center md:justify-start space-x-3 mt-6">
+          <div className="flex justify-center cursor-pointer md:justify-start space-x-3 mt-6">
             {testimonials.map((_, i) => (
               <motion.button
                 key={i}
