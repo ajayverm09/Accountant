@@ -89,7 +89,7 @@ const TestimonialSlider = () => {
                 onClick={() => setIndex(i)}
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.9 }}
-                className={`w-4 h-4 rounded-full transition-all ${
+                className={`w-4 h-4 rounded-full cursor-pointer transition-all ${
                   index === i ? "bg-blue-600" : "bg-gray-300"
                 }`}
               />
