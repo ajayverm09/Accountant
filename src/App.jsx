@@ -8,7 +8,7 @@ import Blogs from './pages/Blogs.jsx'
 import React from 'react';
 import SingleBlog from "./components/SingleBlog.jsx"
 import Contact from './pages/Contact.jsx'
-import ScrollToTop from './Components/ScrollToTop'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
 
