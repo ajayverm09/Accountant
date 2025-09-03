@@ -8,13 +8,15 @@ import Blogs from './pages/Blogs.jsx'
 import React from 'react';
 import SingleBlog from "./components/SingleBlog.jsx"
 import Contact from './pages/Contact.jsx'
-// import AppointmentScheduler from './components/Apointment.jsx'
+import ScrollToTop from './Components/ScrollToTop'
+
 function App() {
 
   return (
     <>
       <div>
         <BrowserRouter>
+        <ScrollToTop/>
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
